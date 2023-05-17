@@ -1,0 +1,273 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&display=swap');
+html{
+	scroll-behavior: smooth;
+}
+body{
+	font-family: 'Noto Serif TC', serif;}
+
+body header {
+    background-image: url(228%E7%B4%A0%E6%9D%90/20180320-115613_U8196_M393183_e1d4.jpg);
+    height: 380px;
+    background-size: cover;
+}
+nav {
+  width: 100%;
+  height: 80px;
+  background-color: #252525;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  opacity: 0.9;
+  -webkit-box-shadow: 0px 1px 20px #6B6B6B;
+  box-shadow: 0px 1px 20px #6B6B6B;
+}
+nav ul li {
+  display: inline;
+  margin-left: 10px;
+}
+nav a:link {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 300;
+}
+nav a:visited {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 300;
+}
+nav a:hover {
+  color: #FFA9AB;
+  text-decoration: none;
+}
+nav ul {
+  margin-right: 20px;
+}
+.return {
+}
+body header h1 {
+    text-align: center;
+    color: #000000;
+    font-size: 45px;
+    font-weight: 550;
+    line-height: 95px;
+    margin-bottom: 70px;
+    padding-top: 95px;
+  
+}
+
+.artistleft {
+    background-image: url(228%E7%B4%A0%E6%9D%90/330px-Chen_Chengpo_nd.jpg);
+    flex: 1;
+    background-size: cover;
+    background-position: 0% 19%;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.artistright {
+    flex: 1;
+    background-image: url(228%E7%B4%A0%E6%9D%90/paper.png);
+    padding-left: 10px;
+    text-align: left;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+.artistright p {
+    text-align: center;
+
+}
+
+.container3 {
+    display: flex;
+    height: 500px;
+}
+
+
+body article {
+}
+.lawyerleft {
+    flex: 1;
+    width: 70%;
+    background-image: url(228%E7%B4%A0%E6%9D%90/paper.png);
+    text-align: left;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 20px;
+}
+.lawyerright {
+    background-image: url(228%E7%B4%A0%E6%9D%90/%E6%B9%AF%E5%BE%B7%E7%AB%A0%E5%BE%8B%E5%B8%AB.jpg);
+    flex: 1;
+    background-size: cover;
+    background-position: 0% 14%;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.whiteterror {
+    background-image: url(228%E7%B4%A0%E6%9D%90/160314061740_cn_taiwan_white_terror_family_976x549_bbc_nocredit.jpg);
+    height: 450px;
+    background-size: cover;
+    /* [disabled]border-top-left-radius: 10px; */
+    /* [disabled]border-top-right-radius: 10px; */
+}
+h3 {
+    height: 30px;
+    background-color: rgba(254,171,172,1.00);
+    border-radius: 20px;
+    text-align: center;
+    -webkit-transition: all 1000ms ease-in-out 0s;
+    -o-transition: all 1000ms ease-in-out 0s;
+    transition: all 1000ms ease-in-out 0s;
+}
+header {
+}
+.box1 {
+    background-image: url(228%E7%B4%A0%E6%9D%90/paper.png);
+    border-radius: 25px;
+}
+#a02 .box1 p {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#a03 ul li {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+h1  {
+    padding-top: 0px;
+    background-image: url(url);
+}
+
+
+
+.box2 {
+    background-image: url(228%E7%B4%A0%E6%9D%90/%E5%A4%A9%E9%A6%AC%E8%8C%B6%E6%88%BF.jpg);
+    background-size: cover;
+}
+
+footer {
+  width: 100%;
+  height: 60px;
+  background-color: #454545;
+  text-align: center;
+  font-size: 14px;
+  line-height: 60px;
+  color: #E6E6E6;
+}
+.whiteterror .wtcontent {
+    background-color: rgba(240,223,228,1.00);
+    padding-top: 200px;
+    height: 200px;
+    background-image: url(228%E7%B4%A0%E6%9D%90/f_551804_1.jpg);
+}
+#a05 .wtcontent {
+    background-color: rgba(236,219,224,1.00);
+    height: 100%;
+    border-radius: 0px 0px 10px 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.m1 {
+    width: 250px;
+    background-image: url(228%E7%B4%A0%E6%9D%90/A_City_of_Sadness.jpg);
+    height: 350px;
+}
+.m2 {
+    width: 250px;
+    height: 350px;
+    background-image: url(228%E7%B4%A0%E6%9D%90/f_551804_1.jpg);	
+}
+.m3 {
+    width: 250px;
+    height: 350px;
+    background-image: url(228%E7%B4%A0%E6%9D%90/17951_756391_S.jpg);	
+}
+.m4 {
+    width: 250px;
+    height: 350px;
+    background-image: url(228%E7%B4%A0%E6%9D%90/Detention_movie_poster.jpg);
+}.container1 {
+    display: flex;
+    justify-content: space-around;
+    background-image: url(228%E7%B4%A0%E6%9D%90/paper.png);
+}
+#a02 {
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 500px;
+
+}
+.container4 {
+    height: 1000px;
+
+}
+.ignition {
+    display: flex;
+
+}
+.box2 {
+    background-image: url(228%E7%B4%A0%E6%9D%90/%E5%A4%A9%E9%A6%AC%E8%8C%B6%E6%88%BF.jpg);
+}
+.container5 {
+    background-color: rgba(240,223,228,1.00);
+    border-radius: 20px;
+}
+#a05 .www {
+    margin-bottom: -3px;
+    height: 30px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.artistleft:hover {
+	transform: rotate(2deg);
+-webkit-transition: all 500ms ease-in-out 0s;
+  -o-transition: all 500ms ease-in-out 0s;
+  transition: all 500ms ease-in-out 0s;}
+.lawyerright:hover {
+	transform: rotate(-2deg);
+-webkit-transition: all 500ms ease-in-out 0s;
+  -o-transition: all 500ms ease-in-out 0s;
+  transition: all 500ms ease-in-out 0s;}h3:hover {
+    font-size: 30px;
+}
+.m1:hover {
+	transform: scale(1.1);
+-webkit-transition: all 500ms ease-in-out 0s;
+  -o-transition: all 500ms ease-in-out 0s;
+  transition: all 500ms ease-in-out 0s;}
+.m2:hover {
+	transform: scale(1.1);
+-webkit-transition: all 500ms ease-in-out 0s;
+  -o-transition: all 500ms ease-in-out 0s;
+  transition: all 500ms ease-in-out 0s;}
+.m3:hover {
+	transform: scale(1.1);
+-webkit-transition: all 500ms ease-in-out 0s;
+  -o-transition: all 500ms ease-in-out 0s;
+  transition: all 500ms ease-in-out 0s;}
+.m4:hover {
+	transform: scale(1.1);
+-webkit-transition: all 500ms ease-in-out 0s;
+  -o-transition: all 500ms ease-in-out 0s;
+  transition: all 500ms ease-in-out 0s;}
